@@ -1,0 +1,12 @@
+x=7
+x=x+1000
+print(x)
+y=440*12
+y+14
+print(y)
+z=y/1000
+print(z)
+j=23
+k=j//5
+print(k)
+print(4**3)
