@@ -1,0 +1,8 @@
+set={'apple','banana','graps'}
+print(set)
+set.update({"orange"})
+print(set)
+set.discard("apple")
+print(set)
+set.remove("apple")
+print(set)
