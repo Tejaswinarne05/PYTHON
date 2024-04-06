@@ -1,0 +1,3 @@
+a=("12.34")
+s=float(a)
+print(s)
