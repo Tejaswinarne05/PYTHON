@@ -1,0 +1,7 @@
+color=str(input("enter colour"))
+if(color=="green"):
+    print("GO")
+elif(color=="red"):
+    print("stop")
+else:
+    print("ready to go")
