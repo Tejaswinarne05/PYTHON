@@ -1,0 +1,6 @@
+set={'apple','banana','graps'}
+print(set)
+set.add("orange")
+print(set)
+set.discard("apple")
+print(set)
