@@ -1,0 +1,5 @@
+def string():
+    b="python is "
+    a=str(input("Enter :"))
+    print(b+a)
+string()
