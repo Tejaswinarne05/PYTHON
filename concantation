@@ -1,0 +1,4 @@
+a="union"
+b="intersection"
+c=a+b
+print(c)
