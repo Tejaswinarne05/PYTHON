@@ -1,0 +1,4 @@
+l=int(input('Enter first number: '))
+b=int(input('Enter second number: '))
+print('qotient:',l//b)
+print('reminder:',l%b)
