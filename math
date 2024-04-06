@@ -1,0 +1,5 @@
+import math
+degree=45
+radian=degree/360*2*math.pi
+print(math.sin(radian))
+print(math.sqrt(4)/2)
