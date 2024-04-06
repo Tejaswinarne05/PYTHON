@@ -1,0 +1,7 @@
+x=int(input("enter the number:"))
+y=int(input("enter the number:"))
+print("add",x+y)
+print("sub",x-y)
+print("mul",x*y)
+print("div",x/y)
+print("mod",x%y)
