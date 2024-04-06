@@ -1,0 +1,2 @@
+str="union"
+print(len(str))
