@@ -1,0 +1,8 @@
+s='university'
+print(s[6])
+print(s[2:])
+print(s[:4])
+print(s+'friends')
+print(s*4)
+print('m' in s)
+print('t' in s)
