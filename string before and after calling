@@ -1,0 +1,9 @@
+s='10'
+i=2
+print('data typof s before casting:',type(s))
+s=int (s)
+print('data type of s after casting:',type(s))
+print('add',s+i)
+print('sub',s-i)
+print('mul',s*i)
+print('div',s//i)
