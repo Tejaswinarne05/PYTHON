@@ -1,0 +1,7 @@
+print("compound and simple interest")
+
+p=int(input("enter the price:"))
+t=int(input("enetr the time:"))
+r=int(input("enetr the rate:"))
+print("compound interest ",p*((1+r)/100)**t)
+print("simple interest ",(p*t*r)/100)
