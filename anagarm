@@ -1,0 +1,34 @@
+def check(s1, s2):
+    if(sorted(s1)== sorted(s2)):
+        print("The strings are anagrams.")
+    else:
+        print("The strings aren't anagrams.")		 		 
+s1 ="listen"
+s2 ="silent"
+check(s1,s2)
+
+              (or)
+
+def check(s1, s2):
+    print(sorted(s1))
+    print(sorted(s2))
+    if(sorted(s1)== sorted(s2)):
+        print("The strings are anagrams.")
+    else:
+        print("The strings aren't anagrams.")		 		 
+s1 ="listen"
+s2 ="silent"
+check(s1,s2)
+
+               (or)
+
+a=str(input("enter:"))
+b=str(input("enter:"))
+c=sorted(a)
+print(c)
+d=sorted(b)
+print(d)
+if(c==d):
+    print("anagram")
+else:
+    print("not anagram")
