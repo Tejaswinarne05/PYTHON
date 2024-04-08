@@ -1,0 +1,12 @@
+a="happy birthday"
+print(a.capitalize())
+print(a.upper())
+print(a.lower())
+print(a.title())
+print(a.swapcase())
+print(a.center(20,"!"))
+print(a.count('birthday'))
+print(a.replace("wish","wish you happy"))
+b="birthday"
+a="*"
+print(a.join(b))
