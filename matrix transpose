@@ -1,0 +1,8 @@
+x = [1,2],[3,4]
+result = [0,0],[0,0]
+n=len(x)
+for i in range(n):
+   for j in range(n):
+       result[j][i] = x[i][j]
+for r in result:
+         print(r)
