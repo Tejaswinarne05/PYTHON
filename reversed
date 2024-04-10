@@ -1,0 +1,23 @@
+n=int(input("enter:"))
+re = 0    
+while (n> 0):    
+    r = n % 10  
+    re = (re * 10) + r  
+    n = n // 10  
+print(" reverse : ",re)
+
+
+
+s="sell1234"
+print(s[::-1])
+
+
+
+o = "1234!"
+r = ''
+i = len(o) - 1
+while i >= 0:
+  r += o[i]
+  i -= 1
+print("Original :", o)
+print("Reversed :", r)
