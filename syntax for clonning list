@@ -1,0 +1,13 @@
+a=[1,2,33,4]
+b=a[:]
+print(b)
+print(a is b)
+b=list(a)
+print(b)
+print(a is b)
+a[2]=3
+print(a)
+b=a.copy()
+print(b)
+print(a is b)
+
